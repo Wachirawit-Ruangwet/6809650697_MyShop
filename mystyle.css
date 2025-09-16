@@ -1,0 +1,212 @@
+        /* MyShop */
+        body{
+            margin: 0px;
+            background-color: #FDFAF6;
+            font-family: "Cantata One", serif;
+        }
+
+        body.myshop header{
+            padding-left: 40px;
+            padding-top: 15px;
+            background-color: #F8EDE3;
+            color: #6B4226;
+            display: flex;
+            align-items: center;
+        }
+
+        body.myshop header h1{
+            font-size: 52px;
+            margin-right: 100px;
+        }
+
+        body.myshop header input{
+            margin-right: 300px;
+            border: 1px solid #d3c1b2;
+            border-radius: 19px;
+            font-size: 18px;
+            width: 683px;
+            height: 40px;
+            outline: none;
+        }
+
+        body.myshop header input:focus{
+            border-color: #a47854;
+            box-shadow: rgba(204, 128, 84, 0.288) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+        }
+ 
+        body.myshop header .A a{
+            margin: 25px;
+            color: #6B4226;
+            text-decoration: none;
+            font-size: 26px;
+        }
+
+        body.myshop section{
+            padding-top: 120px;
+            background-color: #F8EDE3;
+            text-align: center;
+            box-shadow: rgba(0, 0, 0, 0.12) 0px -40px 36px -28px inset;
+            box-sizing: border-box;
+        }
+
+        body.myshop section video{
+            border: 3px solid #6B4226;
+            border-radius: 19px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            width: 300px;
+            height: 200px;
+            display: flex;
+            margin-left: 1560px;
+            background-color: #fff;
+        }
+
+        body.myshop section h2{
+            font-size: 45px;
+            color: #5A3825;
+        }
+
+        body.myshop section p{
+            font-size: 20px;
+            color: #5A3825;
+        }
+
+        body.myshop section button{
+            border: 0px;
+            border-radius: 13px;
+            color: white;
+            background-color: #C89F77;
+            font-size: 20px;
+            width: 157px;
+            height: 51px;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        }
+
+        body.myshop section button:hover{
+            background-color: #a47854;
+        }
+
+        body.myshop .products{
+            display: flex;
+            justify-content: center;
+            gap: 150px;
+            margin: 70px 0px;
+        }
+
+        body.myshop .product-box{
+            align-content: flex-end;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            box-sizing: border-box;
+            text-align: center;
+            background-color: #fff;
+            width: 405px;
+            height: 250px;
+            border-radius: 12px;
+        }
+
+        body.myshop .product-box:hover{
+            transform: scale(1.1, 1.1);
+        }
+
+        body.myshop .product-box h3{
+            font-size: 23px;
+            color: #6B4226;
+            margin-bottom: 1px;
+        }
+
+        body.myshop #price{
+            color: red;
+            font-weight: bolder;
+            font-size: 23px;
+            text-decoration: underline;
+            text-decoration-style: double;
+        }
+
+        body.myshop footer{
+            padding: 10px;
+            background-color: #F8EDE3;
+            color: #6b4226;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        /* stcategory */
+
+        body.stcategory{
+            background-color: #F8EDE3;
+        }
+        body.stcategory header{
+            padding-left: 40px;
+            padding-top: 15px;
+            background-color: #F8EDE3;
+            color: #6B4226;
+            display: flex;
+            align-items: center;
+        }
+
+        body.stcategory header h1{
+            font-size: 52px;
+            margin-right: 100px;
+        }
+
+        body.stcategory header input{
+            margin-right: 300px;
+            border: 1px solid #d3c1b2;
+            border-radius: 19px;
+            font-size: 18px;
+            width: 683px;
+            height: 40px;
+            outline: none;
+        }
+
+        body.stcategory header input:focus{
+            border-color: #a47854;
+            box-shadow: rgba(204, 128, 84, 0.288) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+        }
+ 
+        body.stcategory header .A a{
+            margin: 25px;
+            color: #6B4226;
+            text-decoration: none;
+            font-size: 26px;
+        }
+
+         /* ndcategory */
+
+        body.ndcategory{
+            background-color: #F8EDE3;
+        }
+        body.ndcategory header{
+            padding-left: 40px;
+            padding-top: 15px;
+            background-color: #F8EDE3;
+            color: #6B4226;
+            display: flex;
+            align-items: center;
+        }
+
+        body.ndcategory header h1{
+            font-size: 52px;
+            margin-right: 100px;
+        }
+
+        body.ndcategory header input{
+            margin-right: 300px;
+            border: 1px solid #d3c1b2;
+            border-radius: 19px;
+            font-size: 18px;
+            width: 683px;
+            height: 40px;
+            outline: none;
+        }
+
+        body.ndcategory header input:focus{
+            border-color: #a47854;
+            box-shadow: rgba(204, 128, 84, 0.288) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+        }
+ 
+        body.ndcategory header .A a{
+            margin: 25px;
+            color: #6B4226;
+            text-decoration: none;
+            font-size: 26px;
+        }
