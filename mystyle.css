@@ -182,20 +182,20 @@
             font-size: 26px;
         }
 
-        .divider{
+        body.stcategory .divider{
             width: 1px;
             background-color: #ccc;
             margin: 10px;
         }
 
-        .img-wrap {
+        body.stcategory .img-wrap {
             height: 220px;
             position: relative;
             overflow: hidden;
             border-radius: 8px 8px 0px 0px;
         }
 
-        .img-wrap img {
+        body.stcategory .img-wrap img {
             width: 350px;
             height: 220px;
             object-fit: cover;
@@ -206,21 +206,21 @@
             transition: opacity 0.25s ease;
         }
 
-        .img-wrap img.top {
+        body.stcategory .img-wrap img.top {
             width: 100%;
             opacity: 0;
             pointer-events: none;
         }
 
-        .img-wrap:hover img.top {
+        body.stcategory .img-wrap:hover img.top {
             opacity: 1;
         }
 
-        section.stcategory{
+        body.stcategory section.stcategory{
             color: #6B4226;
         }
 
-        .card-body{
+        body.stcategory .card-body{
             color: #6B4226;
         }
 
@@ -233,6 +233,7 @@
         body.ndcategory{
             background-color: #F8EDE3;
         }
+
         body.ndcategory header{
             padding-left: 40px;
             padding-top: 15px;
@@ -270,4 +271,50 @@
             color: #6B4226;
             text-decoration: none;
             font-size: 26px;
+        }
+
+        body.ndcategory .divider{
+            width: 1px;
+            background-color: #ccc;
+            margin: 10px;
+        }
+
+        body.ndcategory .img-wrap {
+            height: 220px;
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px 8px 0px 0px;
+        }
+
+        body.ndcategory .img-wrap img {
+            width: 350px;
+            height: 220px;
+            object-fit: cover;
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 0;
+            transition: opacity 0.25s ease;
+        }
+
+        body.ndcategory .img-wrap img.top {
+            width: 100%;
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        body.ndcategory .img-wrap:hover img.top {
+            opacity: 1;
+        }
+
+        body.ndcategory section.stcategory{
+            color: #6B4226;
+        }
+
+        body.ndcategory .card-body{
+            color: #6B4226;
+        }
+
+        body.ndcategory a.products{
+            text-decoration: none;
         }
