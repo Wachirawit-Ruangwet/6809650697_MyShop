@@ -307,7 +307,7 @@
             opacity: 1;
         }
 
-        body.ndcategory section.stcategory{
+        body.ndcategory section.ndcategory{
             color: #6B4226;
         }
 
@@ -317,4 +317,107 @@
 
         body.ndcategory a.products{
             text-decoration: none;
+        }
+
+        body.ndcategory footer{
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* 3rdcategory */
+
+        body.rdcategory{
+            background-color: #F8EDE3;
+        }
+
+        body.rdcategory header{
+            padding-left: 40px;
+            padding-top: 15px;
+            background-color: #F8EDE3;
+            color: #6B4226;
+            display: flex;
+            align-items: center;
+        }
+
+        body.rdcategory header a{
+            font-size: 52px;
+            margin-right: 100px;
+            color: #6B4226;
+            text-decoration: none;
+        }
+
+        body.rdcategory header input{
+            padding-left: 10px;
+            margin-right: 300px;
+            border: 1px solid #d3c1b2;
+            border-radius: 19px;
+            font-size: 18px;
+            width: 683px;
+            height: 40px;
+            outline: none;
+        }
+
+        body.rdcategory header input:focus{
+            border-color: #a47854;
+            box-shadow: rgba(204, 128, 84, 0.288) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+        }
+ 
+        body.rdcategory header .A a{
+            margin: 25px;
+            color: #6B4226;
+            text-decoration: none;
+            font-size: 26px;
+        }
+
+        body.rdcategory .divider{
+            width: 1px;
+            background-color: #ccc;
+            margin: 10px;
+        }
+
+        body.rdcategory .img-wrap {
+            height: 220px;
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px 8px 0px 0px;
+        }
+
+        body.rdcategory .img-wrap img {
+            width: 350px;
+            height: 220px;
+            object-fit: cover;
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 0;
+            transition: opacity 0.25s ease;
+        }
+
+        body.rdcategory .img-wrap img.top {
+            width: 100%;
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        body.rdcategory .img-wrap:hover img.top {
+            opacity: 1;
+        }
+
+        body.rdcategory section.rdcategory{
+            color: #6B4226;
+        }
+
+        body.rdcategory .card-body{
+            color: #6B4226;
+        }
+
+        body.rdcategory a.products{
+            text-decoration: none;
+        }
+
+        body.rdcategory footer{
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
