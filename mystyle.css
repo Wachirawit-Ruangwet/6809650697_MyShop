@@ -182,6 +182,12 @@
             font-size: 26px;
         }
 
+        .divider{
+            width: 1px;
+            background-color: #ccc;
+            margin: 10px;
+        }
+
         .img-wrap {
             height: 220px;
             position: relative;
@@ -208,6 +214,10 @@
 
         .img-wrap:hover img.top {
             opacity: 1;
+        }
+
+        section.stcategory{
+            color: #6B4226;
         }
 
         .card-body{
